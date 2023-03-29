@@ -75,3 +75,4 @@ useful on concurrency. We can now see the staging-Service on CloudFormation:
 If we click on the Load Balancer url in Resources we can see our app is up and running:
 ![image](https://user-images.githubusercontent.com/27693622/228495152-34b45823-bf30-4bd4-9743-708bd0cb524c.png)
 
+We have now wrapped the cdk commands in a GitHub workflow. We had two forms of workflow: manual triggers and on push.
